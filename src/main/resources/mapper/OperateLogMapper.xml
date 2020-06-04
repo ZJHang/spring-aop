@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zjhang.dao.OperateLogMapper">
+  <resultMap id="BaseResultMap" type="com.zjhang.domain.entity.OperateLog">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="method_name" jdbcType="VARCHAR" property="methodName" />
+    <result column="parameter_name" jdbcType="VARCHAR" property="parameterName" />
+    <result column="parameter_value" jdbcType="VARCHAR" property="parameterValue" />
+    <result column="consume_time" jdbcType="BIGINT" property="consumeTime" />
+    <result column="result" jdbcType="VARCHAR" property="result" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="bz" jdbcType="VARCHAR" property="bz" />
+  </resultMap>
+</mapper>
